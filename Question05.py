@@ -48,14 +48,13 @@ def student_database():
             else:
                 print("\nAll Student Records")
                 for roll, data in students.items():
-                    print("------------------------")
                     print("Roll Number :", roll)
                     print("Name        :", data["Name"])
                     print("Age         :", data["Age"])
                     print("City        :", data["City"])
         # Exit program
         elif choice == "4":
-            print("Exiting Program...")
+            print("Terminating program successfully.")
             break
         # Invalid menu choice
         else:
